@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<PostList />} />
         <Route path="/posts/:id" element={<Postdetails />} />
         <Route path="/PostName" element={<PostName />} />
+         <Route path="/PostName1" element={<PostName1 />} />
       </Routes>
       <Footer></Footer>
     </div>
