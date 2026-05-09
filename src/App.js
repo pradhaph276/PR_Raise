@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-
       <Routes>
         <Route path="/" element={<PostList />} />
         <Route path="/posts/:id" element={<Postdetails />} />
